@@ -3,4 +3,6 @@ var theCanvas = document.getElementById("canvasOne");
 
 context.strokeStyle = "#000000"
 
-context.arc(100, 200, 20, (Math.PI/180)*0, (Math.PI/180)*90, true);
+            context.globalAlpha = 1;
+            context.fillStyle = "#000000";
+              context.fillRect(0, 0, 640, 480);
